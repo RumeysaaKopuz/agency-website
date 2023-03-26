@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  overflow-x: hidden !important;
+}
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar {
+  background-image: linear-gradient(to right, #bd35d2, #5f1782);
+  padding: 0 !important;
+}
+
+.navbar-brand img {
+  height: 40px;
+  padding-left: 20px;
+}
+.navbar-nav li {
+  padding: 0 10px;
+}
+.navbar-nav li a {
+  color: #fff !important;
+  font-weight: 600;
+  float: right;
+  text-align: left;
+}
+
+.fa-bars {
+  color: #fff;
+  font-size: 30px !important;
+}
+.navbar-toggler {
+  outline: none !important;
+}
+/*------banner section-----*/
+#banner {
+  background-image: linear-gradient(to right, #bd35d2, #5f1782);
+  color: #fff;
+  padding-top: 3%;
+}
+
+.promo-title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 100px;
+}
+.play-btn {
+  width: 45px;
+  margin: 20px;
+  cursor: pointer;
+}
+#banner a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.bottom-img {
+  width: 100%;
+}
+
+/*------------services section--------------------- */
+#services {
+  padding: 80px 0;
+}
+
+.service-img {
+  width: 100px;
+  margin-top: 30px;
+}
+
+.services {
+  padding: 20px;
+}
+
+.services h4 {
+  background-color: #761285;
+  color: #fff;
+  border-radius: 20%;
+  padding: 5px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.services p {
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.title {
+  background-color: #fff;
+  color: #57077f;
+}
+
+.btn-primary {
+  box-shadow: nones;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 30px;
+  background-image: linear-gradient(to right, #bd35d2, #5f1782);
+}
+
+/* ABOUT SECTION*/
+#about-us {
+  background: #f8f9fa;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.about-title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 8%;
+}
+
+#about-us ul li {
+  margin: 10px 0;
+}
+
+#about-us ul {
+  margin-left: 10px;
+}
+
+/*testimonials section */
+.testimonials {
+  margin: 100px 0;
+}
+.testimoials {
+  border-left: 4px solid #7b1798;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.testimoials img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.user-details {
+  display: inline-block;
+  font-size: 12px;
+}
+
+/*social media section */
+#social-media {
+  background: #f8f9fa;
+  padding: 100px 0;
+}
+
+#social-media p {
+  color: #57077f;
+  text-shadow: 2px 2px #bd35d2;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.social-icons img {
+  width: 60px;
+  transition: 0.5s;
+}
+
+.social-icons a:hover img {
+  transform: translate(-10px);
+}
+/* footer section*/
+
+#footer {
+  background-image: linear-gradient(to right, #bd35d2, #5f1782);
+  color: black;
+}
+
+.footer img {
+  width: 100%;
+}
+.footer-box {
+  padding: 20px;
+  color: #fff;
+}
+.footer-box img {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.one {
+  color: #fff;
+}
+
+.two {
+  color: #fff;
+  font-size: 25px;
+}
+.two i {
+  background-color: #5f1782;
+  margin-right: 8px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 2px;
+}
+
+
